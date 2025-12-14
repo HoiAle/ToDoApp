@@ -32,18 +32,25 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 
 ## Technischer Aufbau
 
-Die Anwendung ist modular aufgebaut.
-Jede Hauptfunktionalität ist in einem eigenen Python-Modul implementiert. Dadurch wird der Code:
-- übersichtlich
-- wartbar
-- leicht erweiterbar
+Das Programm ist in mehrere Python-Dateien aufgeteilt, um den Code übersichtlich
+und wartbar zu halten. Jede Datei übernimmt eine klar definierte Aufgabe.
 
 Die zentrale Steuerung erfolgt über die Datei `app.py`.
 Diese verarbeitet Benutzereingaben und ruft die entsprechenden Module auf.
 Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der Darstellung getrennt.
 
-## Datenhaltung
+### Projektstruktur
 
+- `app.py` – Startpunkt der Anwendung
+- `graphics.py` – Menü/Anzeige und Programmsteuerung
+- `new.py` – Aufgabe erstellen
+- `edit.py` – Aufgabe bearbeiten
+- `delete.py` – Aufgabe löschen
+- `status.py` – Status ändern
+- `sort.py` – Aufgaben sortieren
+- `filter.py` – Aufgaben filtern (nur Anzeige)
+- `load.py` – Laden/Speichern
+- `daten/tasks.txt` – dauerhafte Speicherung
 
 ## Datenhaltung
 
@@ -75,18 +82,6 @@ Die gewünschten Aktionen werden durch Eingabe der entsprechenden Zahl ausgewäh
 Die Bedienung erfolgt vollständig über Tastatureingaben.
 
 
-## Projektstruktur
-
-- `app.py` – Startpunkt der Anwendung
-- `graphics.py` – Menü/Anzeige und Programmsteuerung
-- `new.py` – Aufgabe erstellen
-- `edit.py` – Aufgabe bearbeiten
-- `delete.py` – Aufgabe löschen
-- `status.py` – Status ändern
-- `sort.py` – Aufgaben sortieren
-- `filter.py` – Aufgaben filtern (nur Anzeige)
-- `load.py` – Laden/Speichern
-- `daten/tasks.txt` – dauerhafte Speicherung
 
 
 
