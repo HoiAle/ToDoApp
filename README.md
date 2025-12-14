@@ -46,13 +46,13 @@ Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
 
 ## Installation und Nutzung
 
-### 1. Voraussetzungen
+### Voraussetzungen
 
 - Python **3.x**
 - Terminal / Konsole
 - Keine externen Libraries erforderlich
 
-### 2. Projekt starten
+### Projekt starten
 
 ```bash
 python app.py
