@@ -38,6 +38,20 @@ python app.py
 
 Nach dem Start erscheint ein nummeriertes Konsolenmenü. Die gewünschten Aktionen werden über Zahleneingaben ausgewählt.
 
+## Projektstruktur
+
+- `app.py` – Startpunkt der Anwendung
+- `graphics.py` – Menü/Anzeige und Programmsteuerung
+- `new.py` – Aufgabe erstellen
+- `edit.py` – Aufgabe bearbeiten
+- `delete.py` – Aufgabe löschen
+- `status.py` – Status ändern
+- `sort.py` – Aufgaben sortieren
+- `filter.py` – Aufgaben filtern (nur Anzeige)
+- `load.py` – Laden/Speichern
+- `daten/tasks.txt` – Persistente Speicherung
+
+
 
 
 
