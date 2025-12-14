@@ -30,6 +30,26 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 - Speicherung in einer `.txt`-Datei
 - Fehlerbehandlung bei ungültigen Eingaben
 
+## Installation und Nutzung
+
+### Voraussetzungen
+
+- Python **3.x**
+- Terminal / Konsole
+- Keine externen Libraries erforderlich
+
+### Projekt starten
+
+```bash
+python app.py
+```
+
+### Nutzung
+
+Nach dem Start erscheint ein nummeriertes Konsolenmenü.
+Die gewünschten Aktionen werden durch Eingabe der entsprechenden Zahl ausgewählt.
+Die Bedienung erfolgt vollständig über Tastatureingaben.
+
 ## Technischer Aufbau
 
 Das Programm ist in mehrere Python-Dateien aufgeteilt, um den Code übersichtlich
@@ -61,25 +81,7 @@ Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
 [ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]
 ```
 
-## Installation und Nutzung
 
-### Voraussetzungen
-
-- Python **3.x**
-- Terminal / Konsole
-- Keine externen Libraries erforderlich
-
-### Projekt starten
-
-```bash
-python app.py
-```
-
-### Nutzung
-
-Nach dem Start erscheint ein nummeriertes Konsolenmenü.
-Die gewünschten Aktionen werden durch Eingabe der entsprechenden Zahl ausgewählt.
-Die Bedienung erfolgt vollständig über Tastatureingaben.
 
 
 
