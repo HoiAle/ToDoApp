@@ -17,7 +17,7 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 - Status ändern (offen / erledigt)
 - Aufgaben sortieren (ID, Beschreibung, Priorität, Status, Datum)
 - Aufgaben filtern (Status, Priorität, Beschreibung)
-- Persistente Speicherung in einer `.txt`-Datei
+- Speicherung in einer `.txt`-Datei
 - Fehlerbehandlung bei ungültigen Eingaben
 
 ## Installation und Nutzung
