@@ -38,7 +38,7 @@ Die Aufgaben werden in einer Textdatei `daten/tasks.txt` gespeichert.
 Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
 
 ```md
-```yaml
+
 [ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]
 ```
 
