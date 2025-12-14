@@ -53,8 +53,9 @@ Die zentrale Steuerung erfolgt über die Datei `app.py`.
 Diese verarbeitet Benutzereingaben und ruft die entsprechenden Module auf.
 Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der Darstellung getrennt.
 
-### Projektstruktur
+## Projektstruktur
 
+```text
 ToDoApp/
 │
 ├── app.py              # Startpunkt der Anwendung, Menü- und Programmsteuerung
@@ -64,14 +65,14 @@ ToDoApp/
 ├── new.py              # Neue Aufgaben erstellen
 ├── edit.py             # Bestehende Aufgaben bearbeiten
 ├── delete.py           # Aufgaben löschen
-├── status.py           # Aufgabenstatus ändern (offen/erledigt)
+├── status.py           # Aufgabenstatus ändern (offen / erledigt)
 ├── sort.py             # Aufgaben sortieren und speichern
 ├── filter.py           # Aufgaben filtern (nur Anzeige)
 ├── load.py             # Aufgaben aus Datei laden und anzeigen
 │
 ├── daten/
 │   └── tasks.txt       # Dauerhafte Speicherung der Aufgaben
-
+```
 
 ## Datenhaltung
 
