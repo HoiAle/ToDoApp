@@ -57,18 +57,20 @@ Nach dem Start erscheint ein nummeriertes Konsolenmenü.
 Die gewünschten Aktionen werden durch Eingabe der entsprechenden Zahl ausgewählt.
 Die Bedienung erfolgt vollständig über Tastatureingaben.
 
+
 ## Projektstruktur
 
-- `app.py` – Startpunkt der Anwendung
-- `graphics.py` – Menü/Anzeige und Programmsteuerung
-- `new.py` – Aufgabe erstellen
-- `edit.py` – Aufgabe bearbeiten
-- `delete.py` – Aufgabe löschen
-- `status.py` – Status ändern
-- `sort.py` – Aufgaben sortieren
-- `filter.py` – Aufgaben filtern (nur Anzeige)
-- `load.py` – Laden/Speichern
-- `daten/tasks.txt` – dauerhafte Speicherung
+app.py               – Startpunkt der Anwendung
+graphics.py          – Menü- und Anzeigeausgaben
+new.py               – Neue Aufgaben erstellen
+edit.py              – Aufgaben bearbeiten
+delete.py            – Aufgaben löschen
+status.py            – Status ändern
+sort.py              – Aufgaben sortieren
+filter.py            – Aufgaben filtern (nur Anzeige)
+load.py              – Aufgaben laden und anzeigen
+daten/tasks.txt      – Dauerhafte Datenspeicherung
+
 
 
 
