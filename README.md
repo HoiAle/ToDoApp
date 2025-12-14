@@ -34,23 +34,6 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 python app.py
 
 
- Projektstruktur
 
-ToDo-App/
-├── app.py          # Einstiegspunkt
-├── graphics.py     # Menü und Programmsteuerung
-├── new.py          # Aufgabe erstellen
-├── edit.py         # Aufgabe bearbeiten
-├── delete.py       # Aufgabe löschen
-├── status.py       # Status ändern
-├── sort.py         # Aufgaben sortieren
-├── filter.py       # Aufgaben filtern
-├── load.py         # Laden und Speichern
-├── clear.py        # Bildschirm leeren
-├── daten/
-│   └── tasks.txt   # Aufgaben-Speicher
-├── ascii/
-│   └── startbildschirm.txt
-└── ToDoApp.bat     # Startdatei (Windows)
 
 
