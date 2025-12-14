@@ -27,6 +27,7 @@ Jede Hauptfunktionalität ist in einem eigenen Python-Modul implementiert. Dadur
 - übersicht
 - wertbar
 - leicht erweiterbar
+
 Die zentrale Steuerung erfolgt über die Datei `app.py`.
 Diese verarbeitet Benutzereingaben und ruft die entsprechenden Module auf.
 Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der Darstellung getrennt.
