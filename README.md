@@ -55,16 +55,23 @@ Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der D
 
 ### Projektstruktur
 
-- `app.py` – Startpunkt der Anwendung
-- `graphics.py` – Menü/Anzeige und Programmsteuerung
-- `new.py` – Aufgabe erstellen
-- `edit.py` – Aufgabe bearbeiten
-- `delete.py` – Aufgabe löschen
-- `status.py` – Status ändern
-- `sort.py` – Aufgaben sortieren
-- `filter.py` – Aufgaben filtern (nur Anzeige)
-- `load.py` – Laden/Speichern
-- `daten/tasks.txt` – dauerhafte Speicherung
+ToDoApp/
+│
+├── app.py              # Startpunkt der Anwendung, Menü- und Programmsteuerung
+├── graphics.py         # Konsolen-Ausgabe, Menüs und Tabellen
+├── clear.py            # Löscht den Konsolenbildschirm
+│
+├── new.py              # Neue Aufgaben erstellen
+├── edit.py             # Bestehende Aufgaben bearbeiten
+├── delete.py           # Aufgaben löschen
+├── status.py           # Aufgabenstatus ändern (offen/erledigt)
+├── sort.py             # Aufgaben sortieren und speichern
+├── filter.py           # Aufgaben filtern (nur Anzeige)
+├── load.py             # Aufgaben aus Datei laden und anzeigen
+│
+├── daten/
+│   └── tasks.txt       # Dauerhafte Speicherung der Aufgaben
+
 
 ## Datenhaltung
 
