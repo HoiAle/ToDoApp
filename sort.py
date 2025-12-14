@@ -56,7 +56,7 @@ def write_tasks(tasks):
         line = f"[{t['id']}, {t['task']}, {t['prio']}, {t['status']}, {t['created']}, {t['due']}]\n"
         lines.append(line)
 
-    with open("ToDoApp/daten/tasks.txt", "w", encoding="utf-8") as file:
+    with open("daten/tasks.txt", "w", encoding="utf-8") as file:
         file.writelines(lines)
         
 
