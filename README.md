@@ -24,8 +24,8 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 
 Die Anwendung ist modular aufgebaut.
 Jede Hauptfunktionalität ist in einem eigenen Python-Modul implementiert. Dadurch wird der Code:
-- übersicht
-- wertbar
+- übersichtlich
+- wartbar
 - leicht erweiterbar
 
 Die zentrale Steuerung erfolgt über die Datei `app.py`.
@@ -37,8 +37,7 @@ Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der D
 Die Aufgaben werden in einer Textdatei `daten/tasks.txt` gespeichert.
 Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
 
-```md
-
+```csharp
 [ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]
 ```
 
