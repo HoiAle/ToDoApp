@@ -1,7 +1,7 @@
 # ToDoApp – Konsolenbasierter Aufgabenmanager
 
 Ein modular aufgebauter Aufgabenlisten-Manager in Python zur Verwaltung von To-Dos über die Konsole.  
-Die Anwendung ermöglicht das Erstellen, Bearbeiten, Löschen, Sortieren und Filtern von Aufgaben mit persistenter Speicherung in einer Textdatei.
+Die Anwendung ermöglicht das Erstellen, Bearbeiten, Löschen, Sortieren und Filtern von Aufgaben mit Speicherung in einer Textdatei.
 
 ## Hintergrund
 
