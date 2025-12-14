@@ -34,7 +34,7 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 python app.py
 
 
-## Projektstruktur
+ Projektstruktur
 
 ToDo-App/
 ├── app.py          # Einstiegspunkt
