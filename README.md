@@ -38,7 +38,8 @@ Die Aufgaben werden in einer Textdatei `daten/tasks.txt` gespeichert.
 Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
 
 ```text
-[ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]```
+[ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]
+```
 
 ## Installation und Nutzung
 
