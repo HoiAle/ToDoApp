@@ -89,7 +89,7 @@ def filtern():
 
         else:
             clear.clear()
-            graphics.filter()
+            graphics.filtering()
             graphics.taskOverview()
             graphics.taskOverviewFinishline()
             print("*** ⚠️  Ungültige Auswahl! Bitte erneut versuchen. ***")
@@ -114,7 +114,17 @@ def filtern():
         print("")
 
         # Noch einmal filtern?
-        nochmal = input("Weitere Filterung vornehmen? (J/N) :/> ").strip().lower()
-        print("")
-        if nochmal != "j":
-            break
+        while True: 
+            nochmal = input("Weitere Filterung vornehmen? (J/N) :/> ").strip().lower() 
+            if nochmal.lower() == "n": 
+                return
+            elif nochmal.lower() =="j": 
+                clear.clear()
+                break 
+            else: 
+                clear.clear() 
+                graphics.filtering() 
+                graphics.taskOverview() 
+                graphics.taskOverviewFinishline() 
+                print("*** ⚠️ Ungültige Auswahl! Bitte erneut versuchen. ***") 
+                print("")

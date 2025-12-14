@@ -6,7 +6,7 @@ import load
 def read_tasks():
     tasks = []
 
-    with open("daten/tasks.txt", "r", encoding="utf-8") as file:
+    with open("ToDoApp/daten/tasks.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     for line in lines:
@@ -14,6 +14,14 @@ def read_tasks():
         parts = line.split(",")
 
         parts = [p.strip().strip('"').strip("'") for p in parts]
+        # *** List comprehension *** 
+        # neue_liste = []
+        # for p in parts:
+        #     p = p.strip()
+        #     p = p.strip('"')
+        #     p = p.strip("'")
+        #     neue_liste.append(p)
+        # parts = neue_liste
 
         idCounter   = parts[0]
         task        = parts[1]
@@ -48,7 +56,7 @@ def write_tasks(tasks):
         line = f"[{t['id']}, {t['task']}, {t['prio']}, {t['status']}, {t['created']}, {t['due']}]\n"
         lines.append(line)
 
-    with open("daten/tasks.txt", "w", encoding="utf-8") as file:
+    with open("ToDoApp/daten/tasks.txt", "w", encoding="utf-8") as file:
         file.writelines(lines)
         
 
@@ -125,7 +133,18 @@ def sort():
         print("")
 
         # Weitere Sortierung?
-        nochmal = input("Möchten Sie eine weitere Sortierung vornehmen? (J/N) :/> ").strip().lower()
-        print("")
-        if nochmal != "j":
-            break
+        while True:
+            nochmal = input("Möchten Sie eine weitere Sortierung vornehmen? (J/N) :/> ").strip().lower()
+            if nochmal.lower() == "n":
+                return
+            elif nochmal.lower() == "j":
+                break
+            else:
+                clear.clear()
+                graphics.sort()
+                graphics.taskOverview()
+                load.taskOverview()
+                graphics.taskOverviewFinishline()
+                print("*** ⚠️  Ungültige Auswahl! Bitte erneut versuchen. ***")
+                print("")
+        
