@@ -3,7 +3,7 @@ import new
 def taskOverview():   
     # tasks.txt lesen und in Variable speichern
     try:
-        with open("ToDoApp/daten/tasks.txt", "r", encoding="utf-8") as file:
+        with open("daten/tasks.txt", "r", encoding="utf-8") as file:
             lines = file.readlines()
     except FileNotFoundError:
         print("Datei nicht gefunden")

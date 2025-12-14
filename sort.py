@@ -6,7 +6,7 @@ import load
 def read_tasks():
     tasks = []
 
-    with open("ToDoApp/daten/tasks.txt", "r", encoding="utf-8") as file:
+    with open("daten/tasks.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     for line in lines:

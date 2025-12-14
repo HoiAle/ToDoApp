@@ -2,7 +2,7 @@ import clear
 
 def startbildschirm():
     try:
-        with open("ToDoApp/ascii/startbildschirm.txt", "r", encoding="utf-8") as file:
+        with open("ascii/startbildschirm.txt", "r", encoding="utf-8") as file:
             ascii = file.read()
             print(ascii)
             print("")
@@ -13,7 +13,7 @@ def startbildschirm():
     if abbrechen.strip().lower() == "donald trump":
         clear.clear()
         try:
-            with open("ToDoApp/ascii/idiot.txt", "r", encoding="utf-8") as file:
+            with open("ascii/idiot.txt", "r", encoding="utf-8") as file:
                 ascii2 = file.read()
                 print(ascii2)
                 print("")
