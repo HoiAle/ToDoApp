@@ -1,3 +1,4 @@
 [1, Hausis erledigen, a, offen, 02.12.2025, 25.12.2025]
 [2, Trinken, b, offen, 03.12.2025, 13.11.2025]
 [3, Essen, c, offen, 03.12.2025, 12.12.1222]
+[4, github lernen, a, False, 14.12.2025, 14.12.2025]
