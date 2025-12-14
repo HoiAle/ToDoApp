@@ -3,7 +3,7 @@
 Ein modular aufgebauter Aufgabenlisten-Manager in Python zur Verwaltung von To-Dos über die Konsole.  
 Die Anwendung ermöglicht das Erstellen, Bearbeiten, Löschen, Sortieren und Filtern von Aufgaben mit persistenter Speicherung in einer Textdatei.
 
-## Overview
+## Hintergrund
 
 Die ToDoApp ist eine textbasierte Anwendung ohne grafische Oberfläche.  
 Der Fokus liegt auf einfacher Bedienung, klarer Menüführung und robuster Verarbeitung von Benutzereingaben.  
@@ -20,7 +20,7 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 - Persistente Speicherung in einer `.txt`-Datei
 - Fehlerbehandlung bei ungültigen Eingaben
 
-## Installation and Usage
+## Installation und Nutzung
 
 ### 1. Voraussetzungen
 
