@@ -3,7 +3,7 @@
 
 ## Kurzbeschreibung
 
-Die Aufgabenliste ist ein einfaches Konsolenprogramm (ohne grafische Oberfläche), mit dem man To-Do-Listen verwalten kann.
+Die Aufgabenliste ist ein einfaches Konsolenprogramm (ohne grafische Oberfläche), mit dem man To do listen verwalten kann.
 Man kann Aufgaben anlegen, bearbeiten, löschen, als erledigt markieren sowie nach Datum, Status oder Priorität sortieren und filtern.
 Alle Aufgaben werden in einer Textdatei gespeichert und beim Start automatisch wieder geladen.
 
