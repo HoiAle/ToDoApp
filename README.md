@@ -9,7 +9,7 @@ Die ToDoApp ist eine textbasierte Anwendung ohne grafische Oberfläche.
 Der Fokus liegt auf einfacher Bedienung, klarer Menüführung und robuster Verarbeitung von Benutzereingaben.  
 Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start automatisch geladen.
 
-## Features
+## Funktionen
 
 - Aufgaben erstellen
 - Aufgaben bearbeiten
