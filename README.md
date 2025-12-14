@@ -32,8 +32,11 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 
 ```bash
 python app.py
+```
 
 ### Nutzung
+
+Nach dem Start erscheint ein nummeriertes Konsolenmenü. Die gewünschten Aktionen werden über Zahleneingaben ausgewählt.
 
 
 
