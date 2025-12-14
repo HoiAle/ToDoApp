@@ -20,6 +20,23 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 - Speicherung in einer `.txt`-Datei
 - Fehlerbehandlung bei ungültigen Eingaben
 
+## Technischer Aufbau
+
+Die Anwendung ist modular aufgebaut.
+Jede Hauptfunktionalität ist in einem eigenen Python-Modul implementiert. Dadurch wird der Code:
+- übersicht
+- wertbar
+- leicht erweiterbar
+Die zentrale Steuerung erfolgt über die Datei `app.py`.
+Diese verarbeitet Benutzereingaben und ruft die entsprechenden Module auf.
+Die eigentliche Logik (z. B. Bearbeiten, Löschen, Sortieren) ist klar von der Darstellung getrennt.
+
+## Datenhaltung
+
+Die Aufgaben werden in einer Textdatei `daten/tasks.txt` gespeichert.
+Jede Aufgabe wird zeilenweise in folgendem Format abgelegt:
+[ID, Beschreibung, Priorität, Status, Erstelldatum, Fälligkeitsdatum]
+
 ## Installation und Nutzung
 
 ### 1. Voraussetzungen
@@ -36,7 +53,9 @@ python app.py
 
 ### Nutzung
 
-Nach dem Start erscheint ein nummeriertes Konsolenmenü. Die gewünschten Aktionen werden über Zahleneingaben ausgewählt.
+Nach dem Start erscheint ein nummeriertes Konsolenmenü.
+Die gewünschten Aktionen werden durch Eingabe der entsprechenden Zahl ausgewählt.
+Die Bedienung erfolgt vollständig über Tastatureingaben.
 
 ## Projektstruktur
 
