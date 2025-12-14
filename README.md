@@ -49,7 +49,7 @@ Nach dem Start erscheint ein nummeriertes Konsolenmenü. Die gewünschten Aktion
 - `sort.py` – Aufgaben sortieren
 - `filter.py` – Aufgaben filtern (nur Anzeige)
 - `load.py` – Laden/Speichern
-- `daten/tasks.txt` – Persistente Speicherung
+- `daten/tasks.txt` – dauerhafte Speicherung
 
 
 
