@@ -30,5 +30,5 @@ Alle Aufgaben werden dauerhaft in einer Textdatei gespeichert und beim Start aut
 
 ### 2. Projekt starten
 
-`bash
+```bash
 python app.py
